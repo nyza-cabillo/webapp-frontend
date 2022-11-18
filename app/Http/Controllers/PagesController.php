@@ -15,5 +15,9 @@ class PagesController extends Controller
     {
         return view('login');
     }
+    public function dashboard()
+    {
+        return view('dashboard.dashboard');
+    }
 
 }
